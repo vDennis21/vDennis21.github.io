@@ -1,0 +1,10 @@
+{
+  "name": "responsive-landing-page-design-website-home-page-design-agency-website-ui-design-community",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "scripts": {},
+  "devDependencies": {}
+}

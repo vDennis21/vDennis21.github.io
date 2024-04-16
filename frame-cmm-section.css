@@ -1,0 +1,330 @@
+.frame-cmm-section-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.frame-cmm-section-frame-cmm-section {
+  width: 1440px;
+  height: 1784px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.frame-cmm-section-body {
+  gap: 48px;
+  top: 85px;
+  left: 6px;
+  width: 1441px;
+  height: 1416px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-cmm-section-functions-section {
+  top: 40px;
+  left: 25px;
+  width: 1376px;
+  height: 1260px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.frame-cmm-section-slide181 {
+  top: 564px;
+  left: 5px;
+  width: 1352px;
+  height: 696px;
+  position: absolute;
+}
+.frame-cmm-section-slide101 {
+  top: 0px;
+  left: 0px;
+  width: 1376px;
+  height: 524px;
+  position: absolute;
+}
+.frame-cmm-section-frame {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 84px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-neutral-silver);
+}
+.frame-cmm-section-group2228 {
+  top: 30px;
+  left: 481px;
+  width: 752px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.frame-cmm-section-heading-name {
+  gap: 50px;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+.frame-cmm-section-headermenu-default {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.frame-cmm-section-text {
+  color: var(--dl-color-text-gray900);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+  text-decoration: none;
+}
+.frame-cmm-section-menu-item-default {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.frame-cmm-section-text02 {
+  color: var(--dl-color-text-gray900);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+  text-decoration: none;
+}
+.frame-cmm-section-menu-item-default1 {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.frame-cmm-section-text04 {
+  color: var(--dl-color-text-gray900);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+  text-decoration: none;
+}
+.frame-cmm-section-menu-item-default2 {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.frame-cmm-section-text06 {
+  color: var(--dl-color-text-gray900);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+  text-decoration: none;
+}
+.frame-cmm-section-menu-item-default3 {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.frame-cmm-section-text08 {
+  color: var(--dl-color-text-gray900);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+  text-decoration: none;
+}
+.frame-cmm-section-menu-item-default4 {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.frame-cmm-section-text10 {
+  color: var(--dl-color-text-gray900);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+  text-decoration: none;
+}
+.frame-cmm-section-logo {
+  gap: 8px;
+  top: 30.5px;
+  left: 20.745208740234375px;
+  width: 323px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.frame-cmm-section-navlink {
+  display: contents;
+}
+.frame-cmm-section-logo21 {
+  width: 39px;
+  height: 23px;
+  text-decoration: none;
+}
+.frame-cmm-section-text12 {
+  color: rgba(38, 50, 56, 1);
+  width: 276px;
+  height: auto;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-cmm-section-footer {
+  top: 1501px;
+  left: 0px;
+  width: 1440px;
+  height: 283px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.frame-cmm-section-footer-big4 {
+  gap: 125px;
+  width: 1440px;
+  display: flex;
+  padding: 64px 165px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-neutral-black);
+}
+.frame-cmm-section-company-info {
+  gap: 40px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.frame-cmm-section-logo1 {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+.frame-cmm-section-navlink1 {
+  display: contents;
+}
+.frame-cmm-section-logo211 {
+  width: 39px;
+  height: 23px;
+  text-decoration: none;
+}
+.frame-cmm-section-text14 {
+  color: rgba(255, 255, 255, 1);
+  width: 276px;
+  height: auto;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-cmm-section-copyright {
+  gap: 8px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+}
+.frame-cmm-section-text16 {
+  color: var(--dl-color-neutral-silver);
+  width: 350px;
+  height: auto;
+  text-align: left;
+  line-height: 20px;
+}
+.frame-cmm-section-social-links {
+  gap: 16px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+}
+.frame-cmm-section-link {
+  display: contents;
+}
+.frame-cmm-section-social-icons {
+  width: 32px;
+  height: 32px;
+  text-decoration: none;
+}
+.frame-cmm-section-links {
+  gap: 30px;
+  width: 616px;
+  display: flex;
+  z-index: 1;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-cmm-section-col1 {
+  gap: 24px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.frame-cmm-section-text18 {
+  color: var(--dl-color-neutral-white);
+  width: 160px;
+  height: auto;
+  text-align: left;
+  line-height: 28px;
+}
+.frame-cmm-section-list-items {
+  gap: 12px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.frame-cmm-section-text20 {
+  color: var(--dl-color-neutral-silver);
+  width: 160px;
+  height: auto;
+  text-align: left;
+  line-height: 20px;
+}
+.frame-cmm-section-col2 {
+  gap: 24px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.frame-cmm-section-text24 {
+  color: var(--dl-color-neutral-white);
+  width: 160px;
+  height: auto;
+  text-align: left;
+  line-height: 28px;
+}
+.frame-cmm-section-list-items1 {
+  gap: 12px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}

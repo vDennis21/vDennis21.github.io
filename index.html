@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="english"
+  ><head
+    ><title>TourGuideBots Project</title
+    ><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" /><meta
+      charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image" /><style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }</style
+    ><style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }</style
+    ><link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css" /></head
+  ><body
+  <a href="demoindex.html">Demo App</a>
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./index.css" rel="stylesheet" /><div
+        class="landing-page-container"
+        ><div class="landing-page-landing-page"
+          ><div class="landing-page-footer"
+            ><div class="landing-page-footer-big4"
+              ><div class="landing-page-company-info"
+                ><div class="landing-page-logo"
+                  ><img
+                    src="public/external/logo213101-tfi-200h.png"
+                    alt="Logo213101"
+                    class="landing-page-logo21"
+                  /><a href="index.html" class="landing-page-text"
+                    ><span>TourGuideBots Project</span></a
+                  ></div
+                ><div class="landing-page-copyright"
+                  ><span class="landing-page-text002 BodyRegularBody3"
+                    ><span>Copyright © 2024 All rights reserved</span></span
+                  ></div
+                ><div class="landing-page-social-links"
+                  ><a
+                    href="https://youtu.be/60Ea1a2IbK0?si=fCXMK-mG5MgsQ_R6&amp;t=5"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="landing-page-link"
+                    ><img
+                      src="public/external/socialicons3101-1ahq.svg"
+                      alt="SocialIcons3101"
+                      class="landing-page-social-icons" /></a></div></div
+              ><div class="landing-page-links"
+                ><div class="landing-page-col1"
+                  ><span class="landing-page-text004 HeadingHeadline4"
+                    ><span>Company</span></span
+                  ><div class="landing-page-list-items"
+                    ><span class="landing-page-text006 BodyRegularBody3"
+                      ><span>Contact us</span><br /><span
+                        >villalvirmata@gmail.com</span
+                      ></span
+                    ></div
+                  ></div
+                ><div class="landing-page-col2"
+                  ><div
+                    class="landing-page-list-items1"
+                  ></div></div></div></div></div
+                  
+          ><div class="landing-page-body"
+            ><div class="landing-page-functions-section"
+              ><img
+                src="public/external/blankdiagram1413109-67kt-600h.png"
+                alt="Blankdiagram1413109"
+                class="landing-page-blankdiagram141"
+              /><a
+                href="frame-functions-section.html"
+                class="landing-page-button"
+                ><span class="landing-page-text010"
+                  ><span>Learn More.</span></span
+                ></a
+              ><img
+                src="public/external/rectangle13101-kat-200h.png"
+                alt="Rectangle13101"
+                class="landing-page-rectangle1"
+              /><span class="landing-page-text012"
+                ><span class="landing-page-text013">Block Diagram:</span
+                ><span class="landing-page-text014"> </span
+                ><span
+                  >System, 6 Subsystems/Classes &amp; functions.</span
+                ></span
+              ></div
+            ><div class="landing-page-cmm-section"
+              ><a href="frame-cmm-section.html" class="landing-page-button1"
+                ><span class="landing-page-text016"
+                  ><span>Learn More.</span></span
+                ></a
+              ><img
+                src="public/external/rectangle13101-1z3k-200h.png"
+                alt="Rectangle13101"
+                class="landing-page-rectangle11"
+              /><img
+                src="public/external/blankdiagram1613101-cqs-1000w.png"
+                alt="Blankdiagram1613101"
+                class="landing-page-blankdiagram161"
+              /><span class="landing-page-text018"
+                ><span>My CMM Level for the TourGuideBots Project</span></span
+              ><span class="landing-page-text020"
+                ><span class="landing-page-text021"
+                  >CMM(Capability Maturity Model) </span
+                ><span
+                  >Description &amp; CMM level of project start-up.</span
+                ></span
+              ></div
+            ><div class="landing-page-management-plan-section"
+              ><a
+                href="frame-management-plan-section.html"
+                class="landing-page-button2"
+                ><span class="landing-page-text023"
+                  ><span>Learn More.</span></span
+                ></a
+              ><img
+                src="public/external/rectangle13101-2whg-200h.png"
+                alt="Rectangle13101"
+                class="landing-page-rectangle12" /><span
+                class="landing-page-text025"
+                ><span class="landing-page-text026"
+                  >Project Management Plan: </span
+                ><span>SW Process Model, COCOMO.</span></span
+              ><img
+                src="public/external/dalle20240408012416aprofessionalanddetailedillustr3101-n2t-700w.png"
+                alt="DALLE20240408012416Aprofessionalanddetailedillustr3101"
+                class="landing-page-dalle20240408012416-aprofessionalanddetailedillustr" /></div
+            ><div class="landing-page-schedule-section"
+              ><a
+                href="frame-schedule-section.html"
+                class="landing-page-button3"
+                ><span class="landing-page-text028"
+                  ><span>Learn More.</span></span
+                ></a
+              ><img
+                src="public/external/rectangle13101-a5yf-200h.png"
+                alt="Rectangle13101"
+                class="landing-page-rectangle13" /><span
+                class="landing-page-text030"
+                ><span class="landing-page-text031">Schedule: </span
+                ><span>Duration, dependencies, activity charts.</span></span
+              ><img
+                src="public/external/slide2013101-3ojf-500h.png"
+                alt="Slide2013101"
+                class="landing-page-slide201" /></div
+            ><div class="landing-page-test-plans-section"
+              ><a
+                href="frame-test-plans-section.html"
+                class="landing-page-button4"
+                ><span class="landing-page-text033"
+                  ><span>Learn More.</span></span
+                ></a
+              ><img
+                src="public/external/rectangle13101-d0vo-200h.png"
+                alt="Rectangle13101"
+                class="landing-page-rectangle14" /><span
+                class="landing-page-text035"
+                ><span class="landing-page-text036">Test Plans: </span
+                ><span
+                  >System, subsystems, functions and integration tests.</span
+                ></span
+              ><img
+                src="public/external/slide2313101-0jtl-300h.png"
+                alt="Slide2313101"
+                class="landing-page-slide231" /></div
+            ><div class="landing-page-technologies-section"
+              ><a
+                href="frame-technologies-section.html"
+                class="landing-page-button5"
+                ><span class="landing-page-text038"
+                  ><span>Learn More.</span></span
+                ></a
+              ><img
+                src="public/external/rectangle13101-izb-200h.png"
+                alt="Rectangle13101"
+                class="landing-page-rectangle15" /><span
+                class="landing-page-text040"
+                ><span class="landing-page-text041">Technologies: </span
+                ><span>Programming languages, case tools, hardware.</span></span
+              ><img
+                src="public/external/slide3713101-lip8-400h.png"
+                alt="Slide3713101"
+                class="landing-page-slide371" /></div></div
+          ><div class="landing-page-home"
+            ><div class="landing-page-front"
+              ><div class="landing-page-frame1"
+                ><div class="landing-page-text043"
+                  ><span class="landing-page-text044"
+                    ><span class="landing-page-text045">TourGuideBots </span
+                    ><br /><span class="landing-page-text047"></span
+                    ><span>Powered by ChatGPT-4 AI Project</span></span
+                  ><span class="landing-page-text049 BodyRegularBody2"
+                    ><span>by Denis Villalvir CS351 Software Engineering NJCU</span></span
+                  ></div
+                ></div
+              ><div class="landing-page-illustration"
+                ><a
+                  href="https://youtu.be/60Ea1a2IbK0?si=ERuvxpScC_VbZsb1&amp;t=5"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="landing-page-link1"
+                  ><img
+                    src="public/external/dalle20240130130540atourguidebotinajunglethemedpar3099-k85-500w.png"
+                    alt="DALLE20240130130540ATourGuideBotinajunglethemedpar3099"
+                    class="landing-page-dalle20240130130540a-tour-guide-botinajunglethemedpar" /></a></div></div
+            ><div class="landing-page-frame1to8"
+              ><div class="landing-page-clients"
+                ><span class="landing-page-text051 HeadingHeadline2"
+                  ><span>My Tour Guide Robots</span></span
+                ><span class="landing-page-text053 BodyRegularBody2"
+                  ><span
+                    >Interactive Robotic Guides for Thematic Parks</span
+                  ></span
+                ></div
+              ><div class="landing-page-logos"
+                ><div class="landing-page-logo01"
+                  ><img
+                    src="public/external/logo2118-og5j.svg"
+                    alt="Logo2118"
+                    class="landing-page-logo02" /></div
+                ><div class="landing-page-logo03"
+                  ><img
+                    src="public/external/logo2118-bfdq.svg"
+                    alt="Logo2118"
+                    class="landing-page-logo04" /></div
+                ><div class="landing-page-logo05"
+                  ><img
+                    src="public/external/logo2118-2cre.svg"
+                    alt="Logo2118"
+                    class="landing-page-logo06" /></div
+                ><div class="landing-page-logo07"
+                  ><img
+                    src="public/external/logo2118-5tnt.svg"
+                    alt="Logo2118"
+                    class="landing-page-logo08" /></div
+                ><div class="landing-page-logo09"
+                  ><img
+                    src="public/external/logo2118-hkjj.svg"
+                    alt="Logo2118"
+                    class="landing-page-logo10" /></div
+                ><div class="landing-page-logo11"
+                  ><img
+                    src="public/external/logo2118-6wv7.svg"
+                    alt="Logo2118"
+                    class="landing-page-logo12" /></div></div></div
+            ><div class="landing-page-container1"
+              ><div class="landing-page-points"
+                ><div class="landing-page-frame11"
+                  ><span class="landing-page-text055"
+                    ><span class="landing-page-text056"
+                      >1.1. Project (Synopsis):</span
+                    ><span>
+                      "TourGuideBots," intelligent robotic guides designed for
+                      thematic amusement parks. These autonomous robots will
+                      employ AI, Chat-GPT-4, Machine Learning, and Natural
+                      Language Processing. Stands out for its dynamic
+                      conversational abilities, offering personalized guidance
+                      and narratives.</span
+                    ></span
+                  ></div
+                ><div class="landing-page-frame12"
+                  ><span class="landing-page-text058"
+                    ><span class="landing-page-text059"
+                      >1.2. Neural Network (Description &amp;
+                      Application):</span
+                    ><span>
+                      A neural network is an algorithm designed to recognize
+                      patterns. It interprets sensory data through machine
+                      perception. In TourGuideBots, neural networks process and
+                      analyze data from the environment, aiding in tasks like
+                      navigating spaces, interpreting visitor requests, and
+                      personalizing interactions.</span
+                    ></span
+                  ></div
+                ><div class="landing-page-frame13"
+                  ><span class="landing-page-text061"
+                    ><span class="landing-page-text062">1.3. G.P.T:</span
+                    ><span>
+                      GPT stands for "Generative Pre-trained Transformers" the
+                      core of my TourGuideBots' intelligence. With generative
+                      capabilities, they craft responses from scratch, honed
+                      through extensive pre-training to understand the context
+                      and generate relevant content.</span
+                    ></span
+                  ></div
+                ><div class="landing-page-frame14"
+                  ><span class="landing-page-text064"
+                    ><span class="landing-page-text065"
+                      >1.4. Algorithmic Ensemble: </span
+                    ><span
+                      >An algorithm is a set of defined, step-by-step procedures
+                      or instructions for completing a task or solving a
+                      problem. The “TourGuideBots” make use of a combination of
+                      10 algorithms, including:</span
+                    ><br /><span
+                      >A* for optimized routing through the park.</span
+                    ><br /><span
+                      >Bayesian inference for personalized experience
+                      tailoring.</span
+                    ><br /><span
+                      >Convolutional Neural Networks for visual recognition
+                      tasks.</span
+                    ><br /><span
+                      >Long Short-Term Memory networks to maintain conversation
+                      context.</span
+                    ><br /><span
+                      >Support Vector Machines for classification of visitor
+                      preferences.</span
+                    ><br /><span
+                      >K-means clustering for visitor segmentation.</span
+                    ><br /><span
+                      >Decision trees for interactive decision-making
+                      prompts.</span
+                    ><br /><span
+                      >Reinforcement Learning for adaptive interaction
+                      strategies.</span
+                    ><br /><span
+                      >Natural Language Processing for sentiment analysis.</span
+                    ><br /><span
+                      >10. Collaborative filtering to recommend park
+                      attractions.</span
+                    ></span
+                  ></div
+                ></div
+              ><div class="landing-page-container2"
+                ><div class="landing-page-container3"
+                  ><span class="landing-page-text087"
+                    ><span class="landing-page-text088">1.5. CASE Tools: </span
+                    ><span
+                      >A use case is a description of a system’s behavior in
+                      response to external stimuli, focusing on the interaction
+                      between users and the system. It helps define the
+                      requirements of a system and the context within which it
+                      operates.</span
+                    ><br /><span>1. Visual Studio Code.</span><br /><span
+                      >2. Azure Machine Learning.</span
+                    ><br /><span>3. GitHub.</span><br /><span>4. Jenkins.</span
+                    ><br /><span>5. ROS (Robot Operating System).</span
+                    ><br /><span>6. TensorFlow.</span><br /><span
+                      >&nbsp; -Code Generation Specific Tools:</span
+                    ><br /><span
+                      >7. Rational Rhapsody: A visual development environment
+                      that utilizes UML for code generation, particularly
+                      effective during rapid prototyping for the TourGuideBots
+                      project to ensure design and code alignment.</span
+                    ><br /><span
+                      >8. Enterprise Architect: An extensive UML analysis tool
+                      with code generation capabilities, supporting languages
+                      like C++, Java, and Python.</span
+                    ></span
+                  ><span class="landing-page-text108"
+                    ><span class="landing-page-text109">1.6. UML: </span
+                    ><span
+                      >Using Code generation tools like Rational Rhapsody and
+                      Enterprise Architect, we can simulate code generation for
+                      the TourGuideBots project. From the UML diagrams in
+                      step-8, which define classes and attributes for subsystem
+                      functionality, these tools can auto-generate foundational
+                      Python code, establishing backend logic for real-time
+                      visitor interaction.</span
+                    ></span
+                  ></div
+                ><span class="landing-page-text111"
+                  ><span class="landing-page-text112"
+                    >1.7. Purchase/Lease: </span
+                  ><span
+                    >Simulating the acquisition of code through existing
+                    software products. For example, using a COTS product like
+                    IBM Watson could provide AI capabilities for visitor
+                    experience customization through machine learning. An MCOTS
+                    version of an open-source Robot Operating System (ROS) might
+                    include proprietary plugins for enhanced robot
+                    functionality. This approach streamlines the development
+                    process by integrating mature, tested solutions, thus
+                    reducing project lead times and potentially lowering
+                    costs.</span
+                  ></span
+                ></div
+              ></div
+            ></div
+          ><div class="landing-page-frame"
+            ><div class="landing-page-group2228"
+              ><div class="landing-page-heading-name"
+                ><div class="landing-page-headermenu-default"
+                  ><a
+                    href="frame-functions-section.html"
+                    class="landing-page-text114 BodyMediumBody2"
+                    ><span>Functions</span></a
+                  ></div
+                ><div class="landing-page-menu-item-default"
+                  ><a
+                    href="frame-cmm-section.html"
+                    class="landing-page-text116 BodyRegularBody2"
+                    ><span>CMM</span></a
+                  ></div
+                ><div class="landing-page-menu-item-default1"
+                  ><a
+                    href="frame-management-plan-section.html"
+                    class="landing-page-text118 BodyRegularBody2"
+                    ><span>Management Plan</span></a
+                  ></div
+                ><div class="landing-page-menu-item-default2"
+                  ><a
+                    href="frame-schedule-section.html"
+                    class="landing-page-text120 BodyRegularBody2"
+                    ><span>Schedule</span></a
+                  ></div
+                ><div class="landing-page-menu-item-default3"
+                  ><a
+                    href="frame-test-plans-section.html"
+                    class="landing-page-text122 BodyRegularBody2"
+                    ><span>Test Plans</span></a
+                  ></div
+                ><div class="landing-page-menu-item-default4"
+                  ><a
+                    href="frame-technologies-section.html"
+                    class="landing-page-text124 BodyRegularBody2"
+                    ><span>Technologies</span></a
+                  ></div
+                ></div
+              ></div
+            ><div class="landing-page-logo13"
+              ><a href="index.html" class="landing-page-navlink"
+                ><img
+                  src="public/external/logo213099-c5kp-200h.png"
+                  alt="Logo213099"
+                  class="landing-page-logo211" /></a
+              ><a href="index.html" class="landing-page-text126"
+                ><span>TourGuideBots Project</span></a
+              ></div
+            ></div
+          ></div
+        ></div
+      ></div
+    >
+  </body></html
+>

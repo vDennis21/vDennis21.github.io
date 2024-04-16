@@ -1,0 +1,606 @@
+.frame-technologies-section-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.frame-technologies-section-frame-technologies-section {
+  width: 1440px;
+  height: 12642px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.frame-technologies-section-body {
+  gap: 48px;
+  top: 85px;
+  left: 0px;
+  width: 1440px;
+  height: 12470px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-technologies-section-functions-section {
+  top: 54px;
+  left: 52px;
+  width: 1374px;
+  height: 12321px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.frame-technologies-section-slide381 {
+  top: 5722px;
+  left: 8px;
+  width: 1319px;
+  height: 632px;
+  position: absolute;
+}
+.frame-technologies-section-slide411 {
+  top: 10476px;
+  left: 25px;
+  width: 1290px;
+  height: 620px;
+  position: absolute;
+}
+.frame-technologies-section-slide431 {
+  top: 11720px;
+  left: 16px;
+  width: 1299px;
+  height: 601px;
+  position: absolute;
+}
+.frame-technologies-section-slide441 {
+  top: 11124px;
+  left: 40px;
+  width: 1259px;
+  height: 568px;
+  position: absolute;
+}
+.frame-technologies-section-slide301 {
+  top: 7365px;
+  left: 44px;
+  width: 1249px;
+  height: 742px;
+  position: absolute;
+}
+.frame-technologies-section-slide311 {
+  top: 8107px;
+  left: 72px;
+  width: 1179px;
+  height: 717px;
+  position: absolute;
+}
+.frame-technologies-section-slide321 {
+  top: 8927px;
+  left: 24px;
+  width: 1275px;
+  height: 664px;
+  position: absolute;
+}
+.frame-technologies-section-slide331 {
+  top: 9730px;
+  left: 125px;
+  width: 1073px;
+  height: 581px;
+  position: absolute;
+}
+.frame-technologies-section-slide351 {
+  top: 3415px;
+  left: 8px;
+  width: 1318px;
+  height: 666px;
+  position: absolute;
+}
+.frame-technologies-section-slide372 {
+  top: 4994px;
+  left: 8px;
+  width: 1319px;
+  height: 580px;
+  position: absolute;
+}
+.frame-technologies-section-slide361 {
+  top: 4242px;
+  left: 8px;
+  width: 1319px;
+  height: 647px;
+  position: absolute;
+}
+.frame-technologies-section-slide341 {
+  top: 2621px;
+  left: 0px;
+  width: 1334px;
+  height: 630px;
+  position: absolute;
+}
+.frame-technologies-section-slide271 {
+  top: 1797px;
+  left: 3px;
+  width: 1331px;
+  height: 686px;
+  position: absolute;
+}
+.frame-technologies-section-slide121 {
+  top: 0px;
+  left: 35px;
+  width: 1244px;
+  height: 943px;
+  position: absolute;
+}
+.frame-technologies-section-text {
+  top: 2521px;
+  left: 98px;
+  color: rgba(113, 113, 113, 1);
+  width: 1138px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-technologies-section-text02 {
+  top: 3294px;
+  left: 100px;
+  color: rgba(113, 113, 113, 1);
+  width: 1138px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-technologies-section-text04 {
+  top: 4126px;
+  left: 93px;
+  color: rgba(113, 113, 113, 1);
+  width: 1138px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-technologies-section-text06 {
+  top: 4904px;
+  left: 93px;
+  color: rgba(113, 113, 113, 1);
+  width: 1138px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-technologies-section-text08 {
+  top: 5601px;
+  left: 93px;
+  color: rgba(113, 113, 113, 1);
+  width: 453px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-technologies-section-text10 {
+  top: 6414px;
+  left: 441px;
+  color: rgba(113, 113, 113, 1);
+  width: 453px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-technologies-section-text12 {
+  top: 5601px;
+  left: 588px;
+  color: rgba(113, 113, 113, 1);
+  width: 786px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-technologies-section-text14 {
+  top: 962px;
+  left: 100px;
+  color: rgba(113, 113, 113, 1);
+  width: 1138px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-technologies-section-slide141 {
+  top: 1064px;
+  left: 24px;
+  width: 1289px;
+  height: 670px;
+  position: absolute;
+}
+.frame-technologies-section-text16 {
+  top: 7374px;
+  left: 499px;
+  color: rgba(113, 113, 113, 1);
+  width: 453px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-technologies-section-text18 {
+  top: 8963px;
+  left: 512px;
+  color: rgba(76, 175, 79, 1);
+  width: 453px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-technologies-section-text20 {
+  top: 9753px;
+  left: 358px;
+  color: rgba(113, 113, 113, 1);
+  width: 761px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-technologies-section-text22 {
+  top: 10494px;
+  left: 377px;
+  color: rgba(113, 113, 113, 1);
+  width: 761px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-technologies-section-slide391 {
+  top: 6665px;
+  left: 56px;
+  width: 1341px;
+  height: 687px;
+  position: absolute;
+}
+.frame-technologies-section-frame {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 84px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-neutral-silver);
+}
+.frame-technologies-section-group2228 {
+  top: 30px;
+  left: 481px;
+  width: 752px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.frame-technologies-section-heading-name {
+  gap: 50px;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+.frame-technologies-section-headermenu-default {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.frame-technologies-section-text24 {
+  color: var(--dl-color-text-gray900);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+  text-decoration: none;
+}
+.frame-technologies-section-menu-item-default {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.frame-technologies-section-text26 {
+  color: var(--dl-color-text-gray900);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+  text-decoration: none;
+}
+.frame-technologies-section-menu-item-default1 {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.frame-technologies-section-text28 {
+  color: var(--dl-color-text-gray900);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+  text-decoration: none;
+}
+.frame-technologies-section-menu-item-default2 {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.frame-technologies-section-text30 {
+  color: var(--dl-color-text-gray900);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+  text-decoration: none;
+}
+.frame-technologies-section-menu-item-default3 {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.frame-technologies-section-text32 {
+  color: var(--dl-color-text-gray900);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+  text-decoration: none;
+}
+.frame-technologies-section-menu-item-default4 {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.frame-technologies-section-text34 {
+  color: var(--dl-color-text-gray900);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+  text-decoration: none;
+}
+.frame-technologies-section-logo {
+  gap: 8px;
+  top: 30.5px;
+  left: 20.745208740234375px;
+  width: 323px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.frame-technologies-section-navlink {
+  display: contents;
+}
+.frame-technologies-section-logo21 {
+  width: 39px;
+  height: 23px;
+  text-decoration: none;
+}
+.frame-technologies-section-text36 {
+  color: rgba(38, 50, 56, 1);
+  width: 276px;
+  height: auto;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-technologies-section-footer {
+  top: 12557px;
+  left: 0px;
+  width: 1440px;
+  height: 283px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.frame-technologies-section-footer-big4 {
+  gap: 125px;
+  width: 1440px;
+  display: flex;
+  padding: 64px 165px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-neutral-black);
+}
+.frame-technologies-section-company-info {
+  gap: 40px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.frame-technologies-section-logo1 {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+.frame-technologies-section-navlink1 {
+  display: contents;
+}
+.frame-technologies-section-logo211 {
+  width: 39px;
+  height: 23px;
+  text-decoration: none;
+}
+.frame-technologies-section-text38 {
+  color: rgba(255, 255, 255, 1);
+  width: 276px;
+  height: auto;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-technologies-section-copyright {
+  gap: 8px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+}
+.frame-technologies-section-text40 {
+  color: var(--dl-color-neutral-silver);
+  width: 350px;
+  height: auto;
+  text-align: left;
+  line-height: 20px;
+}
+.frame-technologies-section-social-links {
+  gap: 16px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+}
+.frame-technologies-section-link {
+  display: contents;
+}
+.frame-technologies-section-social-icons {
+  width: 32px;
+  height: 32px;
+  text-decoration: none;
+}
+.frame-technologies-section-links {
+  gap: 30px;
+  width: 616px;
+  display: flex;
+  z-index: 1;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-technologies-section-col1 {
+  gap: 24px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.frame-technologies-section-text42 {
+  color: var(--dl-color-neutral-white);
+  width: 160px;
+  height: auto;
+  text-align: left;
+  line-height: 28px;
+}
+.frame-technologies-section-list-items {
+  gap: 12px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.frame-technologies-section-text44 {
+  color: var(--dl-color-neutral-silver);
+  width: 160px;
+  height: auto;
+  text-align: left;
+  line-height: 20px;
+}
+.frame-technologies-section-col2 {
+  gap: 24px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}

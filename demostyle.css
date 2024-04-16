@@ -1,0 +1,27 @@
+.chat-interface {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px; /* Adjust width as needed */
+    margin: auto;
+}
+
+.chat-message, .options {
+    margin-bottom: 10px;
+}
+
+.option {
+    display: inline-block;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.option:hover {
+    background-color: #d0d0d0;
+}
+
+/* Add additional styling as needed */

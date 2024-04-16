@@ -1,0 +1,365 @@
+.frame-test-plans-section-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.frame-test-plans-section-frame-test-plans-section {
+  width: 1440px;
+  height: 2674px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.frame-test-plans-section-body {
+  gap: 48px;
+  top: 85px;
+  left: 0px;
+  width: 1440px;
+  height: 2306px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-test-plans-section-functions-section {
+  top: 53px;
+  left: 66px;
+  width: 1310px;
+  height: 2062px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.frame-test-plans-section-slide241 {
+  top: 1502px;
+  left: 70px;
+  width: 1169px;
+  height: 560px;
+  position: absolute;
+}
+.frame-test-plans-section-slide232 {
+  top: 712px;
+  left: 0px;
+  width: 1310px;
+  height: 640px;
+  position: absolute;
+}
+.frame-test-plans-section-text {
+  top: 625px;
+  left: 84px;
+  color: rgba(113, 113, 113, 1);
+  width: 1138px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-test-plans-section-text01 {
+  color: rgba(113, 113, 113, 1);
+}
+.frame-test-plans-section-text03 {
+  top: 1406px;
+  left: 116px;
+  color: rgba(113, 113, 113, 1);
+  width: 1138px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-test-plans-section-slide221 {
+  top: 0px;
+  left: 104px;
+  width: 1101px;
+  height: 580px;
+  position: absolute;
+}
+.frame-test-plans-section-frame {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 84px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-neutral-silver);
+}
+.frame-test-plans-section-group2228 {
+  top: 30px;
+  left: 481px;
+  width: 752px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.frame-test-plans-section-heading-name {
+  gap: 50px;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+.frame-test-plans-section-headermenu-default {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.frame-test-plans-section-text05 {
+  color: var(--dl-color-text-gray900);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+  text-decoration: none;
+}
+.frame-test-plans-section-menu-item-default {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.frame-test-plans-section-text07 {
+  color: var(--dl-color-text-gray900);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+  text-decoration: none;
+}
+.frame-test-plans-section-menu-item-default1 {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.frame-test-plans-section-text09 {
+  color: var(--dl-color-text-gray900);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+  text-decoration: none;
+}
+.frame-test-plans-section-menu-item-default2 {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.frame-test-plans-section-text11 {
+  color: var(--dl-color-text-gray900);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+  text-decoration: none;
+}
+.frame-test-plans-section-menu-item-default3 {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.frame-test-plans-section-text13 {
+  color: var(--dl-color-text-gray900);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+  text-decoration: none;
+}
+.frame-test-plans-section-menu-item-default4 {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.frame-test-plans-section-text15 {
+  color: var(--dl-color-text-gray900);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+  text-decoration: none;
+}
+.frame-test-plans-section-logo {
+  gap: 8px;
+  top: 30.5px;
+  left: 20.745208740234375px;
+  width: 323px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.frame-test-plans-section-navlink {
+  display: contents;
+}
+.frame-test-plans-section-logo21 {
+  width: 39px;
+  height: 23px;
+  text-decoration: none;
+}
+.frame-test-plans-section-text17 {
+  color: rgba(38, 50, 56, 1);
+  width: 276px;
+  height: auto;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-test-plans-section-footer {
+  top: 2391px;
+  left: 0px;
+  width: 1440px;
+  height: 283px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.frame-test-plans-section-footer-big4 {
+  gap: 125px;
+  width: 1440px;
+  display: flex;
+  padding: 64px 165px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-neutral-black);
+}
+.frame-test-plans-section-company-info {
+  gap: 40px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.frame-test-plans-section-logo1 {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+.frame-test-plans-section-navlink1 {
+  display: contents;
+}
+.frame-test-plans-section-logo211 {
+  width: 39px;
+  height: 23px;
+  text-decoration: none;
+}
+.frame-test-plans-section-text19 {
+  color: rgba(255, 255, 255, 1);
+  width: 276px;
+  height: auto;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-test-plans-section-copyright {
+  gap: 8px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+}
+.frame-test-plans-section-text21 {
+  color: var(--dl-color-neutral-silver);
+  width: 350px;
+  height: auto;
+  text-align: left;
+  line-height: 20px;
+}
+.frame-test-plans-section-social-links {
+  gap: 16px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+}
+.frame-test-plans-section-link {
+  display: contents;
+}
+.frame-test-plans-section-social-icons {
+  width: 32px;
+  height: 32px;
+  text-decoration: none;
+}
+.frame-test-plans-section-links {
+  gap: 30px;
+  width: 616px;
+  display: flex;
+  z-index: 1;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-test-plans-section-col1 {
+  gap: 24px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.frame-test-plans-section-text23 {
+  color: var(--dl-color-neutral-white);
+  width: 160px;
+  height: auto;
+  text-align: left;
+  line-height: 28px;
+}
+.frame-test-plans-section-list-items {
+  gap: 12px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.frame-test-plans-section-text25 {
+  color: var(--dl-color-neutral-silver);
+  width: 160px;
+  height: auto;
+  text-align: left;
+  line-height: 20px;
+}
+.frame-test-plans-section-col2 {
+  gap: 24px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.frame-test-plans-section-list-items1 {
+  gap: 12px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
